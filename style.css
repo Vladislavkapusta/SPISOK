@@ -1,0 +1,43 @@
+.dragonball {
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+.dragonball > li {
+  position:relative;
+ width: 200px;
+}
+
+.dragonball ul {
+  display:none;
+  position:absolute;
+  top:0;
+  left:100%;
+  padding:0;
+}
+
+.dragonball ul ul {
+  left:100%;
+  top:0;
+}
+
+.dragonball li:hover > ul {
+  display:block;
+}
+
+.dragonball a {
+  display:block;
+  text-decoration:none;
+  color:#fff;
+  background-color:#1e88e5;
+  border-radius:5px;
+  padding:10px;
+  margin-bottom:5px;
+  transition:all 0.3s ease-in-out;
+}
+
+.dragonball a:hover {
+  background-color:#01579b;
+  color:#fff;
+}
